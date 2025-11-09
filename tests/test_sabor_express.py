@@ -1,4 +1,4 @@
-from tests.fixtures import sabor_express_object_fixture
+from .conftest import sabor_express_object_fixture
 
 def teste_escolher_restaurante(sabor_express_object_fixture):
     sabor_express = sabor_express_object_fixture
